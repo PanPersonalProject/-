@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/config_bg"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/noDifferentAttackText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="无差别攻击"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="italic"
+
+        android:textSize="25sp" />
+
+    <CheckBox
+        android:id="@+id/noDifferentAttack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/noDifferentAttackText"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        style="@style/CustomCheckboxTheme"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/noDifferentAttackText"
+        android:text="可以攻击自己的子"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginLeft="40dp"
+
+
+        android:textSize="18sp" />
+</RelativeLayout>

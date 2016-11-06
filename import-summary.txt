@@ -1,0 +1,70 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitattributes
+* .gitignore
+* NewChineseChess\
+* NewChineseChess\.git\
+* NewChineseChess\.git\HEAD
+* NewChineseChess\.git\config
+* NewChineseChess\.git\description
+* NewChineseChess\.git\hooks\
+* NewChineseChess\.git\hooks\README.sample
+* NewChineseChess\.git\index
+* NewChineseChess\.git\info\
+* NewChineseChess\.git\info\exclude
+* NewChineseChess\.git\objects\
+* NewChineseChess\.git\objects\4e\
+* NewChineseChess\.git\objects\4e\007610d905bd04d2779c5eed42baf4882da8d9
+* NewChineseChess\.git\objects\bd\
+* NewChineseChess\.git\objects\bd\b0cabc87cf50106df6e15097dff816c8c3eb34
+* NewChineseChess\.git\objects\cd\
+* NewChineseChess\.git\objects\cd\2946ad76b4402e5b3cab9243a9281aad228670
+* NewChineseChess\.gitattributes
+* NewChineseChess\.gitignore
+* README.md
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
